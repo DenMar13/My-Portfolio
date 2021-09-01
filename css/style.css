@@ -16,14 +16,11 @@ body {
 header {
     max-width: 1445px;
     height: auto;
-    /*border: 1px solid black;*/
     margin: 0 auto;
 }
 .wrapper {
     max-width: 945px;
-    /*min-width: 700px;*/
     height: auto;
-    /*border: 1px solid red;*/
     margin: 0 auto;
 }
 .header-content {
@@ -120,7 +117,6 @@ h1 {
 main {
     max-width: 1445px;
     height: auto;
-    /*border: 1px solid black;*/
     margin: 0 auto;
 }
 .about-me {
@@ -162,14 +158,10 @@ h2 {
     display: grid;
     height: 600px;
     margin: 0 auto;
-    /*border: 1px solid black;*/
     grid-template-columns: repeat(4, 1fr); 
     grid-template-rows: 160px 80px 360px; 
     grid-gap: 0px 0px;
 }
-/*.skills-grid > div {
-    border: 1px solid orange;
-}*/
 .skills-header {
     display: grid;
     grid-row-start: 1;
@@ -225,7 +217,6 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /*border: 1px solid red;*/
 }
 .program-flexbox > p {
     font-size: 14px;
@@ -299,11 +290,10 @@ h2 {
 .portfolio-content > h2 {
     margin-top: 104px;
 }
-.portfolio-flexbox-1, .portfolio-flexbox-2, .portfolio-flexbox-3 {
+.portfolio-flexbox-1, .portfolio-flexbox-2, .portfolio-flexbox-3, .portfolio-flexbox-4, .portfolio-flexbox-5 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*border: 1px dotted red;*/
 }
 .portfolio-flexbox-1 {
     margin: 40px 0px 99px 0px;
@@ -312,6 +302,12 @@ h2 {
     margin: 0px 0px 99px 0px;
 }
 .portfolio-flexbox-3 {
+    margin: 0px 0px 96px 0px;
+}
+.portfolio-flexbox-4 {
+   margin: 0px 0px 96px 0px;
+}
+.portfolio-flexbox-5 {
     margin: 0px 0px 96px 0px;
 }
 .portfolio-content a {
@@ -332,7 +328,6 @@ h2 {
 footer {
     max-width: 1445px;
     height: auto;
-    /*border: 1px solid black;*/
     margin: 0 auto;
     background-color: #FFFFFF;
     height: auto;
@@ -341,7 +336,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*border: 1px solid blue;*/
 }
 .footer-content > h2 {
     margin: 113px 0px 20px 0px;
@@ -363,7 +357,6 @@ footer {
 .social-networks {
     display: flex;
     width: 342px;
-    /*border: 1px solid black;*/
     margin: 86px 0px 45px 0px;
     justify-content: space-between;
 }
@@ -412,7 +405,7 @@ footer {
     .header-photo > img {
         max-width: 750px;
     }
-    .portfolio-flexbox-1 > img, .portfolio-flexbox-2 > img, .portfolio-flexbox-3 > img {
+    .portfolio-flexbox-1 > img, .portfolio-flexbox-2 > img, .portfolio-flexbox-3 > img, .portfolio-flexbox-4 > img, .portfolio-flexbox-5 > img {
         max-width: 750px;
     }
 }
@@ -430,48 +423,13 @@ footer {
         z-index: 1;
         height: 30px;
         filter: opacity(50%);
-        /*left: 0;
-        right: 0;
-        top: 20px;
-        margin: 0 auto;
-        z-index: 21;
-        display: block;
-        position: fixed;
-        width: 50px;
-        height: 30px;
-        /*border: 1px solid red;*/
     }
-    /*.header-burger:before,
-    .header-burger:after {
-        position: absolute;
-        z-index: 21;
-        content: '';
-        background-color: black;
-        width: 50px;
-        height: 8px;    
-    }
-    .header-burger:before {
-        top: 0;
-    }
-    .header-burger:after {
-        bottom: 0;
-    }
-    .header-burger span {
-        position: absolute;
-        left: 0;
-        background-color: black;
-        width: 50px;
-        height: 8px;
-        top: 11px;
-    }*/
     .wrapper {
         max-width: 320px;
-        /*border: 1px solid rgb(224, 79, 79);*/
     }
     .header-photo {
         max-width: auto;
         height: 478px;
-        /*border: 1px solid red;*/
         background-image: url("../img/my-photo-mobile.jpg");
         filter: grayscale(72%);
         background-size: cover;
@@ -483,14 +441,9 @@ footer {
         display: none;
         max-width: 316px;
     }
-    .portfolio-flexbox-1 > img, .portfolio-flexbox-2 > img, .portfolio-flexbox-3 > img {
-        max-width: 316px;
-        padding-left: 2px;
-    }
     header {
         max-width: 767px;
         height: auto;
-        /*border: 1px solid black;*/
         margin: 0 auto;
     }
     .header-content {
@@ -499,7 +452,6 @@ footer {
         flex-direction: column;
     }
     .menu {
-        /*display: none;*/
         max-width: 260px;
         height: auto;
         border: none;
@@ -511,7 +463,6 @@ footer {
         z-index: 0;
     }
     .menu > ul {
-        /*display: none;*/
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -570,7 +521,6 @@ footer {
     main {
         max-width: 767px;
         height: auto;
-        /*border: 1px solid blue;*/
         margin: 0 auto;
     }
     .about-me {
@@ -612,7 +562,6 @@ footer {
         display: grid;
         height: auto;
         margin: 0 auto;
-        /*border: 1px solid black;*/
         grid-template-columns: repeat(1, 1fr); 
         grid-template-rows: 120px 80px repeat(4, 280px) 100px;
         grid-gap: 0px 0px;
@@ -677,7 +626,6 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        /*border: 1px solid red;*/
     }
     .program-flexbox > p {
         font-size: 14px;
@@ -713,11 +661,14 @@ footer {
     .portfolio-content > h2 {
         margin-top: 80px;
     }
-    .portfolio-flexbox-1, .portfolio-flexbox-2, .portfolio-flexbox-3 {
+    .portfolio-flexbox-1, .portfolio-flexbox-2, .portfolio-flexbox-3, .portfolio-flexbox-4, .portfolio-flexbox-5 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /*border: 1px dotted red;*/
+    }
+    .portfolio-flexbox-1 > img, .portfolio-flexbox-2 > img, .portfolio-flexbox-3 > img, .portfolio-flexbox-4 > img, .portfolio-flexbox-5 > img {
+        max-width: 316px;
+        padding-left: 2px;
     }
     .portfolio-flexbox-1 {
         margin: 65px 0px 78px 0px;
@@ -726,6 +677,12 @@ footer {
         margin: 0px 0px 78px 0px;
     }
     .portfolio-flexbox-3 {
+        margin: 0px 0px 78px 0px;
+    }
+    .portfolio-flexbox-4 {
+        margin: 0px 0px 78px 0px;
+    }
+    .portfolio-flexbox-5 {
         margin: 0px 0px 78px 0px;
     }
     .portfolio-content a {
@@ -741,47 +698,45 @@ footer {
         text-decoration: underline;
     }
     footer {
-    max-width: 1445px;
-    height: auto;
-    /*border: 1px solid black;*/
-    margin: 0 auto;
-    background-color: #FFFFFF;
-    height: auto;
-   }
-.footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /*border: 1px solid blue;*/
-}
-.footer-content > h2 {
-    margin: 82px 0px 28px 0px;
-}
-.footer-top-text {
-    color: #070707;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    margin-bottom: 40px;
-}
-.footer-bottom-text {
-    color: #828282;
-    font-size: 14px;
-    line-height: 16.5px;
-    text-align: center;
-    margin-bottom: 90px;
-}
-.social-networks {
-    display: flex;
-    max-width: 320px;
-    margin: 48px 0px 48px 0px;
-    justify-content: space-between;
-}
-.btn {
-    width: 100%;
-    padding: 10px 0px 0px 0px;
-    text-align: center;
-}
+        max-width: 1445px;
+        height: auto;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+        height: auto;
+    }
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+    .footer-content > h2 {
+        margin: 82px 0px 28px 0px;
+    }
+    .footer-top-text {
+        color: #070707;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .footer-bottom-text {
+        color: #828282;
+        font-size: 14px;
+        line-height: 16.5px;
+        text-align: center;
+        margin-bottom: 90px;
+    }
+    .social-networks {
+        display: flex;
+        max-width: 320px;
+        margin: 48px 0px 48px 0px;
+        justify-content: space-between;
+    }
+        .btn {
+        width: 100%;
+        padding: 10px 0px 0px 0px;
+        text-align: center;
+    }
 }
 @keyframes stars {
     from {
@@ -793,3 +748,4 @@ footer {
         animation-timing-function: ease-in;
     }
 }
+
